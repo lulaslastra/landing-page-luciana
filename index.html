@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title>Landing Page</title>
 </head>
 <body>
@@ -13,14 +15,17 @@
                 <img src="imagenes/chanchito.png" alt="Logo">
             </div>
             <div class="options">
-                <a href="#">Inicio</a>
-                <a href="#">Nosotros</a>
-                <a href="#">Contacto</a>
+                <a href="#inicio">Inicio</a>
+                <a href="#acerca">Acerca de</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#contacto">Contacto</a>
             </div>
         </div>
     </header>
-<main>
-   <div class="hero-section">
+
+<main class="main-content">
+    <section id="inicio">
+    <div class="hero-section">
      <div>
       <h1>Adopta tu chanchito</h1>
       <p> La adopción de chanchos ha ganado popularidad debido a la creciente conciencia sobre el bienestar animal. <br> 
@@ -38,9 +43,11 @@
         
      </div>
     </div>
+    </section>  
 </main>
 
-<section class="hero-section-nos">
+<main class="hero-section-nos">
+    <section id="acerca">
     <div>
         <h2>Algo de Nosotros</h2>
         <div>
@@ -49,7 +56,68 @@
         <p>Al elegirnos como tu servicio de adopción de chanchitos, te sumergirás en una experiencia llena de alegría, aprendizaje y conexión con otros amantes de estos encantadores animales. Adoptar un chanchito a través de nuestro servicio no solo te brindará un nuevo amigo peludo, sino que también te unirás a una comunidad comprometida con valores que promueven el cuidado responsable y el amor incondicional hacia los animales.</p>
          </div>
     </div>
-</section>
+    <div class="hero-card-uno">
+        <img src="imagenes/chanchitos-recien-nacidos.jpg">
+        <img src="imagenes/9dc4b884213a5a11556cb998dbca3606.jpg">
+    </div>
+    </section>
+</main>
   
+<main>
+    <section id="servicios">
+    <div class="servicios-content">
+        <h2>Servicios que ofrecemos</h2>
+        <div>
+        <h3 class="servicios">Servicio 1: Adopción Responsable de Chanchos</h3>
+        <p>Ofrecemos chanchos adorables y cariñosos para adopción responsable. Cada uno de nuestros chanchitos proviene de criadores éticos y ha recibido cuidados veterinarios completos. Nuestro objetivo es encontrar hogares amorosos para estos inteligentes y simpáticos animales.</p>
+         <ul>
+            <li>Chanchitos Saludables: Todos nuestros chanchos han pasado por un examen veterinario completo, están desparasitados y tienen todas sus vacunas al día.</li>
+            <li>Asesoramiento Personalizado: Proporcionamos asesoramiento personalizado sobre la alimentación, el cuidado y los requisitos especiales de los chanchos como mascotas.</li>
+            <li>Documentación Completa: Entregamos documentación completa, incluyendo certificados de salud y detalles sobre la procedencia del chanchito.</li>
+            <li>Accesorios y Alimentos: Ofrecemos paquetes de inicio que incluyen accesorios esenciales y alimentos de alta calidad para facilitar la transición del chanchito a su nuevo hogar.</li>
+            <li>Seguimiento Post-Adopción: Nos comprometemos a brindar apoyo continuo después de la adopción. Estamos disponibles para responder preguntas y proporcionar orientación sobre el cuidado a largo plazo.</li>
+        </ul>
+        </div>
+        <div>
+        <h3 class="servicios">Servicio 2: Criadero de Chanchos de Raza Exclusiva</h3>
+        <p>Descubre la experiencia única de tener un cerdito de raza exclusiva como tu mascota. En nuestro criadero, nos especializamos en la cría cuidadosa de chanchos de razas particulares, seleccionando cuidadosamente líneas genéticas para garantizar características específicas y temperamentos excepcionales.</p>
+         <ul>
+               <li> Razas Exclusivas: Ofrecemos chanchos de razas exclusivas con características únicas. Desde mini cerdos hasta razas de tamaño estándar, cada uno tiene su propio encanto y personalidad.</li>
+                <li>Garantía de Pureza: Garantizamos la pureza de la raza y proporcionamos certificados de pedigree para cada chanchito.</li>
+                <li>Entrenamiento Inicial: Incluimos sesiones de entrenamiento inicial para ayudarte a establecer una relación positiva con tu nuevo amigo de cuatro patas.</li>
+                <li>Cuidados Veterinarios de Calidad: Trabajamos con veterinarios especializados en animales exóticos para garantizar la salud y el bienestar de nuestros chanchos.</li>
+                <li>Asesoramiento Continuo: Proporcionamos asesoramiento continuo sobre la alimentación, el cuidado y el enriquecimiento para que puedas disfrutar plenamente de la compañía de tu cerdito de raza exclusiva.</li>
+         </ul>
+        </div>
+
+    </div>
+    </section>
+
+</main>
+
+<section class="contacto"> 
+   
+    <div class="contacto-content">
+    <ul>
+        <h3>Contactanos para más información!</h3>
+        <li>
+          <i class="fas fa-map-marker-alt"></i>
+          <span>San Martin, Calle Los Avellanos 2678</span>
+        </li>
+        <li>
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email: chanchitosadopta@gmail.com</span>
+        </li>
+        <li>
+        <i class="fa-solid fa-envelope"></i>
+        <span>Número de whatsapp: +54 9 11 4857-3849</span>
+        </li>
+      </ul>
+
+      <div class="imagen-contact">
+        <img src="imagenes/78ee83eeb2b9ab78e7202ea1e92e5d34.jpg">
+      </div>
+    </div>
+</section>
 </body>
 </html>
